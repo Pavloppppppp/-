@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: rgb(0, 174, 255);
+  --color-error: #cc3333;
+  --color-success: #4bb544;
+  --color-primary: #009579;
+}
+
+body {
+  background-color: rgb(247, 237, 237);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.fl_grow {
+  flex-grow: 1;
+}
+.wd50 {
+  width: 50%;
+}
+
+.pd_top20 {
+  padding-top: 20px;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.form_section {
+  padding-bottom: 10px;
+}
+
+.wd100 {
+  width: 100%;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.form_design {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.form_message {
+  text-align: center;
+}
+
+.form_message_success {
+  color: var(--color-success);
+  font-size: 14px;
+}
+
+.form_message_error {
+  color: var(--color-error);
+  font-size: 14px;
+}
+
+.input_section {
+  transition: all 0.2s;
+}
+
+.input_section:focus {
+  border-color: var(--color-primary);
+  background-color: #fff;
+}
+
+.form_input_error {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.form_input_error_message {
+  color: var(--color-error);
+  font-size: 14px;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+.autorisation_button {
+  background-color: var(--blue);
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border: none;
+  margin: 8px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.autorisation_button:active {
+  transform: scale(0.98);
+}
+
+.without_auth_btn:active {
+  transform: scale(0.98);
+}
+
+.forgot_pass {
+  font-style: italic;
+  font-size: 10px;
+  color: var(--blue);
+}
+
+.forgot_pass:hover {
+  text-decoration: underline;
+}
+
+.without_auth_btn {
+  background-color: var(--blue);
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border: none;
+  margin: 8px 0;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.form_hidden {
+  display: none;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: rgb(45, 45, 167);
+}
+
+.btn_group {
+  position: relative;
+}
+
+.lang_btn {
+  padding: 5px 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdwn_list {
+  list-style-type: none;
+  padding: 10px 15px;
+  margin: 0;
+  font-size: 12px;
+  position: absolute;
+  top: auto;
+  bottom: 100%;
+  background-color: white;
+  min-width: 140px;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#show_list {
+  display: none;
+}
+
+.dropdwn_list li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list_link {
+  text-decoration: none;
+  color: black;
+}

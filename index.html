@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>ГАЛІНТЕЛ - Провайдер Інтернету</title>
+  <link rel="icon" href="Images/Galintel.png">
+</head>
+<body>
+
+<!--Header-->
+<div class="main_container">
+  <div class="content list_resp">
+    <div><small>Центр обслуговування</small></div>
+    <div class="col list_pad">
+      <ul class="list">
+        <li class="list_inline"><b><a href="tel: +380930289618" class="col_black">093 028-96-18</a></b></li>
+        <li class="list_inline"><b><a href="tel: +380930325321" class="col_black">093 032-53-21</a></b></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="list"><!--
+        --><li class="content_item0 bg_pink list_inline col_white"><b>Вмикай ГАЛІНТЕЛ</a></b></li><!--
+        --><li class="content_item1 bg_blue list_inline"><b><a href="static/index1.html" target="_blank" class="col_white">Персональний кабінет</a></b></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Navbar-->
+<header class="main_container bg_grey container_pad container_mar">
+  <div class="navbar_content resp_content">
+    <div class="col" style="display: flex; align-items: center;">
+      <a href="javascript:void(0)" class="bar" onclick="showList()"><i class="fa-solid fa-bars"></i></a>
+      <a href="index.html"><img src="Images/Galintel.png" alt="ГАЛІНТЕЛ" width="60px" title="ГАЛІНТЕЛ"></a>
+    </div>
+    <div class="content_around">
+      <ul class="list list_resp">
+        <li class="list_inline">
+          <button class="dropdown_btn"><strong>Компанія <i class="fa-solid fa-caret-down"></i></strong></button> 
+          <ul class="list dropdown_list">
+            <li><a href="Company/actions.html">Акції</a></li>
+            <li><a href="Company/news.html">Новини</a></li>
+          </ul>
+        </li>
+        <li class="list_inline">
+          <button class="dropdown_btn"><strong>Інтернет <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="Internet/traffic.html">Тарифи</a></li>
+            <li><a href="Internet/Acces Technology/acstech.html">Технології доступу</a></li>
+            <li><a href="">Налаштування обладнання</a></li>
+            <li><a href="">Завантаженість каналів</a></li>
+          </ul>
+        </li>
+        <li class="list_inline">
+          <button class="dropdown_btn"><strong>Абонентам <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="">Способи оплати</a></li>
+            <li><a href="Consumer/Frequently Questions/freqqes.html">Часті питання</a></li>
+            <li><a href="">Посібник абонента</a></li>
+          </ul>
+        </li>
+        <li class="list_inline" onclick="showFunction()" style="cursor: pointer;"><strong>Центр обслуговування</strong></li>
+      </ul>
+    </div>
+    <div class="list_resp">
+      <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+    </div>
+    <!--Response-->
+    <div class="profile_resp">
+      <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="static/index1.html"><i class="fa-solid fa-user" style="font-size: 30px; margin-left: 15px;"></i></a>
+    </div>
+    <div class="content_around w100 hide_list" id="navHidden">
+      <ul class="list resp_list">
+        <li class="list_block">
+          <button class="dropdown_btn"><strong>Компанія <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="Company/actions.html">Акції</a></li>
+            <li><a href="Company/news.html">Новини</a></li>
+          </ul>
+        </li>
+        <li class="list_block">
+          <button class="dropdown_btn"><strong>Інтернет <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="Internet/traffic.html">Тарифи</a></li>
+            <li><a href="Internet/Acces Technology/acstech.html">Технології доступу</a></li>
+            <li><a href="">Налаштування обладнання</a></li>
+            <li><a href="">Завантаженість каналів</a></li>
+          </ul>
+        </li>
+        <li class="list_block">
+          <button class="dropdown_btn"><strong>Абонентам <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="">Способи оплати</a></li>
+            <li><a href="Consumer/Frequently Questions/freqqes.html">Часті питання</a></li>
+            <li><a href="">Посібник абонента</a></li>
+          </ul>
+        </li>
+        <li class="list_block"><button><strong>Центр обслуговування</strong></button></li>
+      </ul>
+    </div>
+    <!--End response-->
+  </div>
+</header>
+
+<!--Section about Internet conection-->
+<section>
+  <div class="content">
+    <div class="section_content">
+      <!--Slideshow-->
+      <div class="slideshow_resp resp_content">
+        <div class="slideshow_container">
+          <div class="mySlides fade">
+            <img src="olltv_ok_gg.jpg" alt="OLLTV" style="width: 100%;">
+            <div class="pos_abs position">
+              <div><a href="Company/actions.html" target="_blank" class="pd5 fw600 bg_pink col_white display_inline">Акції</a>
+              </div>
+              <div><a href="OLL.TV/oll.html" target="_blank" class="pd5 display_block bg_blue col_white size">OLL.TV - провідний український
+                  легальний сервіс інтернет-телебачення</a></div>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <img src="multimedia.jpg" alt="optyka v dim" style="width: 100%">
+            <div class="pos_abs pos">
+              <div><a href="Company/actions.html" target="_blank" class="pd5 fw600 bg_pink col_white display_inline">Акції</a>
+              </div>
+              <div><a href="" target="_blank" class="pd5 display_block bg_blue col_white size">
+                  Технологія FTTH (оптика в дім) вже в Новому Роздолі. Поспішай підключитись!</a>
+              </div>
+            </div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+      </div>
+      <!--Prices-->
+      <div class="resp_content">
+        <div class="rows" style="width: 100%;">
+          <div class="m_left wd_15 bg_pink ">
+            <a href="Internet/traffic.html" class="arrow_span" target="_blank"></a>
+          </div>
+          <div class="content_item pad_mar_item bg_blue wd_80">
+            Інтернет 50<br>до 50 Мбіт/с 130грн
+          </div>
+        </div>
+        <div class="rows">
+          <div class="m_left wd_15 bg_pink">
+            <a href="Internet/traffic.html" class="arrow_span" target="_blank"></a>
+          </div>
+          <div class="content_item pad_mar_item bg_blue wd_80">
+            Інтернет 100<br>до 100 Мбіт/с 180грн
+          </div>
+        </div>
+        <div class="rows">
+          <div class="m_left wd_15 bg_pink">
+            <a href="Internet/traffic.html" class="arrow_span" target="_blank"></a>
+          </div>
+          <div class="content_item pad_mar_item bg_blue wd_80">
+            Інтернет 200<br>до 200 Мбіт/с 220грн
+          </div>
+        </div>
+        <p class="m_left"><b>Провайдер інтернету та кабельного ТВ у Новому Роздолі</b></p>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br><br><br><br>
+
+<!--News-->
+<section class="bg_grey">
+  <div class="section_content2 resp_content">
+    <div>
+      <h1 style="margin: 0;">Новини</h1>
+    </div>
+    <div class="row" style="margin-top: 15px;">
+      <div class="resp_width">
+        <time class="fw600 col_pink">31.12.2021</time>
+        <a href="" class="display_block col_black pdt5"><b>Графік роботи на новорічні та різдвяні свята</b></a>
+      </div>
+      <div class="resp_width">
+        <time class="fw600 col_pink">16.12.2021</time>
+        <a href="" class="display_block col_black pdt5"><b>Припиняється надання послуг Кабельне телебченння та IPTV</b></a>
+      </div>
+      <div class="resp_width">
+        <time class="fw600 col_pink">13.04.2021</time>
+        <a href="" class="display_block col_black pdt5"><b>Увага! Зміна частотної сітки телеканалів</b></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="resp_content">
+  <div class="content">
+    <div class="content_item0 bg_pink col_white fw600"><a href="Consumer/Frequently Questions/freqqes.html" style="color: white;">Часті питання</a></div>
+    <div class="content_item1 bg_blue col_white fw600">Способи оплати</div>
+  </div>
+</div>
+
+<div class="padding_tb"></div>
+
+<!--Nim Net description-->
+<section class="section_content1">
+  <div class="resp_content">
+    <h1>ГАЛІНТЕЛ - Ваш доступний Інтернет</h1>
+    <div class="wd80">
+      <p>
+        Компанія «ГАЛІНТЕЛ» — Новітні Інформаційні Мережі, є швидкозростаючим регіональним оператором широкосмугового доступу до
+        мережі Інтернет. Кількість клієнтів компанії постійно зростає. Нашими абонентами є не тільки ті хто вперше користується
+        Інтернетом, але й значна частина користувачів, з певним досвідом, які зробили свій вибір на користь якості та
+        надійності. Ми надаємо послуги широкосмугового доступу в місті Новий Розділ. Приорітетами в будівництві мережі для нас є
+        не тільки багатоповерхові будинки, але й приватний сектор. Послуги доступу до Інтернету від «ГАЛІНТЕЛ» — це: оптимальна
+        ціна, висока якість, стабільна швидкість, цілодобовий доступ та професійна технічна підтримка
+      </p>
+      <p>
+        Наші мережі побудовані по технології FTTB — оптика в кожен будинок — з використанням гігабітних волоконно-оптичних
+        магістралей та сучасного керованого обладнання. Це дозволяє надати кожному абоненту канал доступу до Інтернету зі
+        швидкістю до 100 Мбіт/с. Наша мережа розвивається на обладнанні таких відомих компаній як Cisco, D-link, ZTE.
+      </p>
+      <p style="margin-bottom: 0;">
+        Компанія, звісно, багато уваги приділяє обслуговуванню Абонентів. Для цього організовано сучасну службу технічної
+        підтримки та цілодобовий моніторинг стану обладнання мережі.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="padding_tb"></div>
+
+<button class="support"><i class="fa-solid fa-circle-question support_item" onclick="showFunction()"></i></button>
+
+<!--Support window-->
+<div id="supportModal" class="support_modal">
+  <form action="#" class="support_card" id="form">
+    <header class="txt_center pd32" style="position: relative;">
+      <span onclick="document.getElementById('supportModal').style.display='none'" 
+        class="close_support">×</span>
+      <h1><i class="fa-solid fa-circle-question"></i> Support</h1>
+    </header>
+    <div class="supp_input_container">
+      <input class="supp_input _req" type="text" id="name" name="name" placeholder="Введіть Ім'я">
+      <input class="supp_input _req _email" type="text" id="email" name="email" placeholder="Email">
+      <input class="supp_input _req" type="text" id="phone" name="phone" placeholder="Номер телефону">
+      <textarea class="supp_input _req" id="message" name="message" rows="4" placeholder="Чим вам допомогти?"></textarea>
+      <button class="supp_input" type="submit" id="sendMail">Надіслати</button>
+    </div>
+  </form>
+  <div id="suppErrMess" style="color: red;"></div>
+</div>
+
+
+<!--footer-->
+<footer class="footer bg_grey">
+  <div class="footer_content resp_content">
+    <div class="d_flex">
+      <div class="wd_auto resp_mg">
+        <ul class="list txt_center">
+          <li>Провайдер Інтернету та кабельного ТБ у Новому Роздолі</li>
+          <li id="current_year" class="pdt5"></li>
+        </ul>
+      </div>
+      <div class="wd_auto resp_mg">
+        <ul class="list txt_center">
+          <li>Центр обслуговування</li>
+          <li class="pdt5"><b><a href="tel: +380930289618" class="col_black">093 028-96-18</a></b></li>
+          <li class="pdt5"><b><a href="tel: +380930325321" class="col_black">093 032-53-21</a></b></li>
+        </ul>
+      </div>
+      <div class="wd_auto resp_mg">
+        <ul class="list txt_center">
+          <li>Електронна пошта</li>
+          <li class="pdt5">admin@galintel.com.ua</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const year = new Date();
+document.getElementById("current_year").innerHTML = "©" + " " + year.getFullYear() + " ГАЛІНТЕЛ";
+</script>
+
+<script>
+let slideIndex = 1;
+let i;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n)
+}
+
+function showSlides(n) {
+  let slides = document.getElementsByClassName("mySlides");
+  if(n > slides.length) {
+    slideIndex = 1;
+  }
+  if(n < 1) {
+    slideIndex = slides.length;
+  }
+  for(i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+</script>
+
+<script>
+let dropdown = document.getElementsByClassName("dropdown_btn");
+
+for (let i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function () {
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+<script>
+  function showList() {
+    let x = document.getElementById("navHidden");
+    if (x.className.indexOf("hide_list") == -1) {
+      x.className += "hide_list";
+    } else {
+      x.className = x.className.replace("hide_list", "");
+    }
+  }
+</script>
+
+<script>
+  function showFunction() {
+    let supportWindow = document.getElementById("supportModal");
+    supportWindow.style.display = "block";
+  }
+</script>
+
+<script src="src/support.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+</html>

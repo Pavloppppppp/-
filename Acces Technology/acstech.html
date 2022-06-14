@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/all.css">
+  <link rel="stylesheet" href="../Acces Technology/acctexh.css">
+  <title>ГАЛІНТЕЛ - Провайдер Інтернету</title>
+  <link rel="icon" href="../Images/Galintel.png">
+</head>
+<body>
+<!--Header-->
+<div class="main_container">
+  <div class="content">
+    <div><small>Центр обслуговування</small></div>
+    <div class="col list_pad">
+      <ul class="list">
+        <li class="list_inline"><b><a href="tel: +380930289618" class="col_black">093 028-96-18</a></b></li>
+        <li class="list_inline"><b><a href="tel: +380930325321" class="col_black">093 032-53-21</a></b></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="list"><!--
+      --><li class="content_item0 bg_pink list_inline col_white"><b>Вмикай ГАЛІНТЕЛ</a></b></li><!--
+      --><li class="content_item1 bg_blue list_inline"><b><a href="../static/index1.html" target="_blank"
+          class="col_white">Персональний кабінет</a></b></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Navbar-->
+<header class="main_container bg_grey container_pad container_mar">
+  <div class="navbar_content">
+    <div class="col">
+      <a href="../index.html"><img src="../Images/Galintel.png" alt="ГАЛІНТЕЛ" width="60px" title="ГАЛІНТЕЛ"></a>
+    </div>
+    <div class="content_around">
+      <ul class="list">
+        <li class="list_inline">
+          <button class="dropdown_btn"><strong>Компанія <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="../Company/actions.html">Акції</a></li>
+            <li><a href="../Company/news.html">Новини</a></li>
+          </ul>
+        </li>
+        <li class="list_inline">
+          <button class="dropdown_btn"><strong>Інтернет <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="../Internet/traffic.html">Тарифи</a></li>
+            <li><a href="acstech.html">Технології доступу</a></li>
+            <li><a href="">Налаштування обладнання</a></li>
+            <li><a href="">Завантаженість каналів</a></li>
+          </ul>
+        </li>
+        <li class="list_inline">
+          <button class="dropdown_btn"><strong>Абонентам <i class="fa-solid fa-caret-down"></i></strong></button>
+          <ul class="list dropdown_list">
+            <li><a href="../Consumer/payment.html">Способи оплати</a></li>
+            <li><a href="../Frequently Questions/freqqes.html">Часті питання</a></li>
+            <li><a href="">Посібник абонента</a></li>
+          </ul>
+        </li>
+        <li class="list_inline"><strong>Центр обслуговування</strong></li>
+      </ul>
+    </div>
+    <div>
+      <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+    </div>
+  </div>
+</header>
+
+<!--Section-->
+<section>
+  <div class="container">
+    <div>
+      <h1>Технології доступу</h1>
+
+      <!--Article-->
+      <article style="position: relative;">
+        <h5>Технологія PON</h5>
+        <p>PON (Passive optical network) — технологія пасивних оптичних мереж. Розподілена мережа доступу PON, заснована на
+        деревоподібній волоконно-кабельній архітектурі з пасивними оптичними розгалужувачими на вузлах, досить економічний
+        спосіб забезпечити широкосмугову передачу інформації. При цьому архітектура PON володіє необхідною ефективністю
+        нарощування і вузлів мережі, і пропускної здатності, залежно від справжніх та майбутніх потреб абонентів.</p>
+        <p>Основна ідея архітектури PON — використання лише одного модуля в OLT (optical line terminal) для передачі інформації
+        безлічі абонентських пристроїв ONT (optical network terminal в термінології ITU-T), які називаються ONU (optical network
+        unit в термінології IEEE) і прийому інформації від них. Число абонентських вузлів, підключених до одного модуля OLT,
+        може бути настільки великим, наскільки дозволяє бюджет потужності і максимальна швидкість апаратури. Для передачі потоку
+        інформації від OLT до ONT — прямого (низхідного) потоку, як правило, використовується довжина хвилі 1550 нм. Навпаки,
+        потоки даних від різних абонентських вузлів у центральний вузол спільно утворюють зворотній (висхідний) потік,
+        передаються на довжині хвилі 1310 нм. В OLT та ONT вбудовані мультиплексори WDM розділяють вихідні й вхідні потоки.
+        Прямий потік на рівні оптичних сигналів, є широкомовним. Кожен абонентський вузол ONT, зчитуючи адресні поля, виділяє з
+        цього загального потоку призначену тільки йому частину інформації. Фактично, ми маємо справу з розподіленим
+        демультиплексором. Всі абонентські вузли ONT ведуть передачу у зворотньому потоці на одній і тій же довжині хвилі,
+        використовуючи концепцію множинного доступу з тимчасовим поділом TDMA (time division multiple access). Для того, щоб
+        виключити можливість перетину сигналів від різних ONT, для кожного з них встановлюється свій індивідуальний розклад по
+        передачі даних з урахуванням поправки на затримку, пов’язану з віддаленням даного ONT від OLT. Це завдання вирішує
+        протокол TDMA MAC.</p>
+        <p>Переваги архітектури PON:</p>
+        <ul class="list_info">
+          <li>відсутність проміжних активних вузлів;</li>
+          <li>економія оптичних приймачів в центральному вузлі;</li>
+          <li>економія волокон;</li>
+          <li>легкість підключення нових абонентів та зручність обслуговування (підключення, відключення або вихід з ладу одного або
+          декількох абонентських вузлів ніяк не позначається на роботі інших).</li>
+        </ul>
+        <h5>Технологія Ethernet</h5>
+        <p>Ethernet — базова технологія локальних обчислювальних (комп’ютерних) мереж з комутацією пакетів, що використовує
+        протокол CSMA/CD. Це найпоширеніший на сьогоднішній день стандарт локальних мереж. Загальна кількість мереж, які
+        працюють по протоколі Ethernet у даний час оцінюється в 5 мільйонів, а кількість комп’ютерів з встановленими мережевими
+        адаптерами Ethernet — у 50 мільйонів. Коли говорять Ethernet, то під цим, звичайно, розуміють кожен з варіантів цієї
+        технології.</p>
+        <p>Цей протокол дозволяє в кожний момент часу лише один сеанс передачі в логічному сегменті мережі. При появі двох і більше
+        сеансів передачі одночасно виникає колізія, яка фіксується станцією, що ініціює передачу. Станція аварійно зупиняє
+        процес і очікує закінчення поточного сеансу передачі, а потім знову намагається повторити передачу. Ethernet-мережі
+        функціонують на швидкостях 10Мбіт/с, Fast Ethernet — на швидкостях 100Мбіт/с, Gigabit Ethernet — на швидкостях
+        1000Мбіт/с, 10 Gigabit Ethernet — на швидкостях 10Гбіт/с. В кінці листопада 2006 року було прийняте рішення про початок
+        розробок наступної версії стандарту з досягненням швидкості 100Гбіт/с (100 Gigabit Ethernet).</p>
+        <p>З самого початку Ethernet базувався на ідеї зв’язку комп’ютерів через єдиний коаксіальний кабель, який виконував роль
+        транзитного середовища. Даний метод був дещо схожим на методи радіопередач (хоча й з суттєвими відмінностями, наприклад,
+        те, що в кабелі значно легше виявити колізію, ніж в радіоефірі). З плином часу з відносно простої початкової
+        специфікації Ethernet розвинувся у складну мережеву технологію, яка зараз використовується у більшості комп’ютерних
+        систем. Щоб зменшити ціну та полегшити управління і виявлення помилок в мережі, коаксіальний кабель згодом був замінений
+        зв’язками типу «точка-точка», що з’єднувалися між собою концентраторами/комутаторами (хабами/світчами). Своїм
+        комерційним успіхом технологія Ethernet завдячує появі стандарту з використанням кабелю типу «вита пара» в якості
+        транзитного середовища.</p>
+        <p>На фізичному рівні станції Ethernet спілкуються між собою за допомогою передачі одна одній пакетів – невеликих блоків
+        даних, які відправляються та доставляються індивідуально. Кожна Ethernet-станція має свою власну 48-бітну MAC-адресу,
+        яка використовується як кінцевий пункт або джерело для кожного пакету. Мережеві картки, як правило, не сприймають
+        пакетів, що адресовані іншим Ethernet-станціям. Унікальна МАС-адреса є записаною в контролер кожної мережевої карти.</p>
+        <p>Незважаючи на серйозні зміни від 5-Мбітного товстого коаксіалу до 1-Гбітного оптоволоконного зв’язку типу «точка-точка»,
+        різні варіанти Ethernet на найнижчому рівні є майже однаковими з точки зору програміста і можуть бути легко з’єднані між
+        собою за допомогою дешевого обладнання. Це є можливим, оскільки формат кадру лишається незмінним, не дивлячись на різні
+        процедури доступу до мережі.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<div style="padding: 20px 0"></div>
+
+<!--footer-->
+<footer class="footer bg_grey">
+  <div class="footer_content">
+    <div class="d_flex">
+      <div class="wd_auto">
+        <ul class="list">
+          <li>Провайдер Інтернету та кабельного ТБ у Новому Роздолі</li>
+          <li id="current_year" class="pdt5"></li>
+        </ul>
+      </div>
+      <div class="wd_auto">
+        <ul class="list">
+          <li>Центр обслуговування</li>
+          <li class="pdt5"><b><a href="tel: +380930289618" class="col_black">093 028-96-18</a></b></li>
+          <li class="pdt5"><b><a href="tel: +380930325321" class="col_black">093 032-53-21</a></b></li>
+        </ul>
+      </div>
+      <div class="wd_auto">
+        <ul class="list">
+          <li>Електронна пошта</li>
+          <li class="pdt5">admin@nim-net.com.ua</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const year = new Date();
+  document.getElementById("current_year").innerHTML = "©" + " " + year.getFullYear() + " ГАЛІНТЕЛ";
+</script>
+<script>
+  let dropdown = document.getElementsByClassName("dropdown_btn");
+
+  for (let i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function () {
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+</script>
+<script src="tips.js"></script>
+</body>
+</html>
